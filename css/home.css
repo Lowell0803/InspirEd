@@ -1,0 +1,44 @@
+.header {
+	width: 100%;
+}
+.header img {
+	width: 100%;
+	position: absolute;
+	top: 9%;
+	filter: brightness(0.4);
+	filter: drop-shadow(blue);
+	opacity: 0.9;
+	z-index: -1;
+}
+.header-content {
+	margin-left: 10%;
+	
+}
+.header-content h2, .header-content p, .header-content h6 {
+	padding: 0;
+	margin: 0;
+} 
+.header-content h6 {
+	margin-top: 14%;
+	font-size: 1.2rem;
+	color: #06bbcc;
+}
+.header-content h2 {
+	font-size: 3rem;
+	color: white;
+	margin-top: 1%;
+}
+.header-content p {
+	font-size: 1rem;
+	color: white;
+	margin-top: 2%;
+}
+.header-content button {
+	background-color: #06bbcc;
+	color: white;
+	border: 0px solid black;
+	border-radius: 2.5px;
+	height: 2.5rem;
+	width: 5rem;
+	margin-top: 2%;
+}

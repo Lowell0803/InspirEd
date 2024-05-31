@@ -1,0 +1,112 @@
+hr {
+    border: none;
+    border: 1px solid gray !important;
+    margin: 1em 0;
+}
+
+p hr {
+    border: 1px solid black !important;
+}
+
+.headline {
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 0.5em;
+    margin-top: 2em;
+}
+
+.hover1, .hover2 {
+    transition: font-size 0.3s ease, width 0.3s ease;
+    width: 43%;
+    height: 25em;
+    text-align: center;
+    display: inline-block;
+    border: solid #06bbcc;
+    border-width: 0.1em;
+    vertical-align: top; 
+    line-height: 1.5;
+    margin-left: 5%;
+    color: white;
+}
+
+.hover1:hover, .hover2:hover {
+    font-size: 1.5em;
+    width: 48%;
+}
+
+.hover2 {
+    margin-left: 3%;
+}
+
+.vision, .mission {
+    font-size: 2em;
+    background-color: #06bbcc;
+    margin: 0.4em;
+    padding: 0.2em 1em;
+    border-radius: 0.1em;
+}
+
+.container {
+    padding: 0.5em;
+    text-align: justify;
+}
+
+
+.description {
+    font-size: 1.1em;
+    color: black;
+}
+
+
+.headline2 {
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 0.5em;
+    margin-top: 2em;
+}
+
+.core_values {
+    display: inline-block;
+
+}
+
+.core-value {
+/*    margin;*/
+    margin-top: 2%;
+    width: 48%;
+    text-align: center;
+    display: inline-block;
+}
+
+.core-value img {
+    width: 30%;
+    border: 0.125em solid #06bbcc;
+    transition: width 0.5s;
+}
+
+.core-value .text-overlay {
+    margin: auto;
+    text-align: center;
+    background-color: #06bbcc;
+    color: black;
+    width: 30%;
+    text-align: center;
+/*    transition: bottom 0.3s ease, opacity 0.3s ease;*/
+    transition: width 0.5s;
+    border: 0.125em solid #06bbcc;
+}
+
+
+
+.core-value:hover {
+    bottom: 0;
+    opacity: 100;
+    color: white;
+}
+.core-value img:hover {
+    width: 50%;
+}
+.core-value img:hover + .text-overlay {
+    width: 50%;
+    transition: width 0.5s;
+}
